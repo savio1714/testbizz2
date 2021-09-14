@@ -1,0 +1,77 @@
+/*.input-field{
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}*/
+.input-field.success input{
+	border-color: #2ecc71;
+}
+
+.input-field.error input{
+	border-color: #e74c3c;
+}
+
+.input-field.success i.fa-check-circle{
+	visibility: visible;
+	color: #2ecc71;
+}
+
+.input-field.error i.fa-exclamation-circle{
+	visibility: visible;
+	color: #e74c3c;
+}
+.input-field.error small{
+	visibility: visible;
+	color: #e74c3c;
+}
+
+.input-field i{
+	visibility: hidden;
+	position: absolute;
+	top:38px;
+	right: 25px;
+}
+
+.input-field small{
+	visibility: hidden;
+	/*position: absolute;*/
+	bottom:0;
+	left:0;
+}
+.input-field #errorMessage{
+position: absolute;
+font-size: 85%;
+	top:50px;
+	right: 80%;
+	color: #e74c3c;
+}
+.errorMessage2{
+font-size: 85%;
+color: #e74c3c;
+}
+.hideDiv{
+	visibility: hidden;
+}
+.showDiv{
+	visibility: visible;
+}
+
+
+.pagination3 {   
+        display: inline-block;   
+    }   
+    .pagination3 a {   
+        font-weight:bold;   
+        font-size:14px;   
+        color: black;   
+        float: left;   
+        padding: 6px 12px;   
+        text-decoration: none;   
+        border:1px solid #b7b2b2;   
+    }   
+    .pagination3 a.active {   
+            background-color: #0594da;   
+    }   
+    .pagination3 a:hover:not(.active) {   
+        /*background-color: #ffcb08;   */
+    } 
